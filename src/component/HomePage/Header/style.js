@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const StyledHeader = styled.div`
     width: 100%;
     height: 3.3em;
-    background-color: blueviolet;
-`
+    background-color: #0000FF;
+`;
 
 export const StyledSignUp = styled.button` 
     display: inline-block;
