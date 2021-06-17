@@ -103,7 +103,7 @@ export const StyledInput = styled.input`
     width: 40em;
     height: 3em;
     padding: 0.5em;
-    color: ${props => props.inputColor || "palevioletred"};
+    color: ${props => props.inputColor || "black"};
     background: #fff0d0;
     border: none;
     border-radius: 4px;
