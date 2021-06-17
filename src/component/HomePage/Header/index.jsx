@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 import {StyledHeader, StyledSignUp, StyledSignIn, StyledMenu, StyledLogo} from './style'
 import logo from '../../../assets/logo.png'
 
 const Header = () => {
     return <StyledHeader>
-                
                 <StyledSignUp>Sign Up</StyledSignUp>
                 <StyledSignIn>Sign in</StyledSignIn>
                 <StyledMenu>
@@ -13,6 +12,7 @@ const Header = () => {
                 </StyledMenu>
                 <StyledLogo src={logo} />
             </StyledHeader>
+
 }
 
 export default Header;
