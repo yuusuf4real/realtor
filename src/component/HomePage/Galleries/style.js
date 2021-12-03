@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const StyledGall = styled.div`
     width: 100%;
     height: 36em;
-    border: 1px solid;
 `;
 
 export const StyledHeading = styled.h1`
@@ -17,9 +16,9 @@ export const StyledListing1 = styled.div`
     width: 20em;
     height: 29em;
     float: left;
-    margin-left: 9em;
+    margin-left: 7em;
     margin-top: 1em;
-    background-color: #DCDCDC;
+    background-color: #F1F1F1;
     box-shadow: 5px 10px #888888;
 `;
 
@@ -28,9 +27,9 @@ export const StyledListing2 = styled.div`
     width: 20em;
     height: 29em;
     float: left;
-    margin-left: 3em;
+    margin-left: 5em;
     margin-top: 1em;
-    background-color: #DCDCDC;
+    background-color: #F1F1F1;
     box-shadow: 5px 10px #888888;
 `;
 
@@ -38,9 +37,9 @@ export const StyledListing3 = styled.div`
     width: 20em;
     height: 29em;
     float: left;
-    margin-left: 3em;
+    margin-left: 5em;
     margin-top: 1em;
-    background-color: #DCDCDC;
+    background-color: #F1F1F1;
     box-shadow: 5px 10px #888888;
 `;
 

@@ -32,7 +32,7 @@ const Galleries = () => {
                 </StyledListingImg2>
                 <StyledListingTxt2>
                 <StyledGallPrice2>#220,000,000</StyledGallPrice2>
-                    <StyledGallAddr2>Ariyib Crescent, Admiralty Way, Lekki Phase1</StyledGallAddr2>
+                    <StyledGallAddr2>Ariyibi Crescent, Admiralty Way, Lekki Phase1</StyledGallAddr2>
                     <StyledGallDes2>3 Bedsrooms&nbsp;&nbsp; 2 Baths</StyledGallDes2><br />
                     <StyledGallRealtor2>Adron Homes</StyledGallRealtor2>
                 </StyledListingTxt2>

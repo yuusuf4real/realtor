@@ -1,19 +1,20 @@
 import styled from "styled-components";
 
-export const StyledBanner = styled.div`
+export const StyleSignUp = styled.div`
     width: 100%;
-    height: 32.8em;
-    background-color: #F1F1F1;
-    margin-top: 5em;
+    height: 32em;
+    margin-top: 2.8em;
 `;
-export const StyledInBanner1 = styled.div`
+
+export const StyledInSignUp1 = styled.div`
     width: 35em;
     height: 29em;
     float: left;
     margin-left: 7em;
+    margin-top: 2.8em;
 `;
 
-export const StyledInBanner2 = styled.div`
+export const StyledInSignUp2 = styled.div`
     width: 35em;
     height: 29em;
     float: left;
@@ -21,29 +22,17 @@ export const StyledInBanner2 = styled.div`
     margin-top: 2.8em;
 `;
 
-export const StyledBannerImg = styled.img`
-    width: 35em;
-    height: 29em;
-`;
-
-export const StyledText1 = styled.h1`
-    font-size: 3.5em;
-    line-height: 1.1em;
+export const StyledHeading = styled.h1`
     font-weight: 500;
-    margin-top: 0.5em;
 `;
 
-export const StyledText2 = styled.p`
-    margin-top: -1rem;
-    font-size: calc(1.275rem + .3vw);
+export const StyledNote = styled.p`
     text-align: justify;
-    text-justify: auto;
-    line-height: normal;
     font-weight: 400;
-    color: #495057;
+    font-size: 1.3rem;
 `;
 
-export const StyledBannerBtn = styled.button` 
+export const StyledGetStarted = styled.button` 
     width: 9rem;
     height: 3rem;
     display: inline-block;
@@ -68,10 +57,10 @@ export const StyledBannerBtn = styled.button`
     font-weight: 600;
     color: #fff;
     border-color: #0000FF;
-    margin-top: 1rem!important;
+    margin-top: 3rem!important;
 `;
 
-export const StyledBannerBtn2 = styled.button` 
+export const StyledSignIn = styled.button` 
     width: 9rem;
     height: 3rem;
     display: inline-block;
@@ -88,24 +77,29 @@ export const StyledBannerBtn2 = styled.button`
     vertical-align: middle;
     cursor: pointer;
     user-select: none;
-    background-color: #fff;
+    background-color: #ffe5b4;
     padding: .375rem .75rem;
     font-size: 1.25rem;
     border-radius: .3rem;
     font-weight: 600;
-    color: #6c757d;
-    border-color: #6c757d;;
-    margin-top: 1rem!important;
+    color: #6c757h;
+    border-color: #6c757d;
+    margin-top: 3rem!important;
     margin-left: 1rem;
 `;
 
-export const StyledInput = styled.input`
-    width: 40em;
-    height: 3em;
-    padding: 0.5em;
-    color: ${props => props.inputColor || "black"};
-    background: #F6E8B1;
-    border: none;
-    border-radius: 4px;
-    font-size: 15px;
+export const StyledMeet = styled.h1`
+    font-weight: 500;
 `;
+
+export const StyledMeetImg = styled.img`
+    width: 26em;
+    height: 15em;
+`;
+
+export const StyledMeetNote = styled.p`
+    max-width: 26em;
+    font-weight: 400;
+    font-size: 1rem;
+`;
+
