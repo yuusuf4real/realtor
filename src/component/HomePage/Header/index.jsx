@@ -5,12 +5,13 @@ import logo from '../../../assets/logo.png'
 
 const Header = () => {
     return <StyledHeader>
+                <StyledLogo src={logo} />
                 <StyledSignUp>Sign Up</StyledSignUp>
                 <StyledSignIn>Sign in</StyledSignIn>
                 <StyledMenu>
-                <p>Home&nbsp;&nbsp;&nbsp; About Us&nbsp;&nbsp;&nbsp; Meet A Realtor</p>
+                <p>Home&nbsp;&nbsp;&nbsp; About Us&nbsp;&nbsp;&nbsp; Meet A Realtor </p>
                 </StyledMenu>
-                <StyledLogo src={logo} />
+                
             </StyledHeader>
 
 }
